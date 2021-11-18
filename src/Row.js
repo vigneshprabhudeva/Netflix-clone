@@ -7,7 +7,7 @@ export default function Row(props) {
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(props.fetchURL);
-      console.log(request.data);
+
       setMovies(request.data.results);
       return request;
     }
