@@ -8,7 +8,7 @@ function App() {
   console.log("hi");
   return (
     <div>
-      hikjhbkjbkjnkj
+      achante achar
       <Row title="netflix originals" fetchURL={request.trending} />
       <Row title="trending" fetchURL={request.trending} />
       <Row title="thrillers" fetchURL={request.trending} />
