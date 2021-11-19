@@ -1,0 +1,38 @@
+.row_poster {
+  max-width: 250px;
+  margin: 5px;
+  transition: transform 450ms;
+  border-radius: 2vh;
+}
+.row_posterLarge {
+  max-height: 300px;
+  transition: transform 450ms;
+  margin: 5px;
+  border-radius: 2vh;
+}
+.row_posterLarge:hover {
+  transform: scale(1.2);
+}
+.movie-list {
+  display: flex;
+  flex-direction: row; /* this is important */
+  overflow: scroll;
+  padding: 15px;
+  align-content: center;
+}
+.movie-list h1 {
+  color: white;
+}
+.movie-list::-webkit-scrollbar {
+  display: none;
+}
+.movie-list {
+  text-align: center;
+}
+
+.row_poster:hover {
+  transform: scale(1.2);
+}
+.row {
+  color: white;
+}
